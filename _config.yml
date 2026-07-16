@@ -31,7 +31,7 @@ timezone: "Europe/Rome"
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 
 permalink: /:categories/:title/
 paginate: 5
