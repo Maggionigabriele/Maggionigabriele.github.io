@@ -19,11 +19,11 @@ description: >-
   Portfolio of Gabriele Maggioni, a Data Scientist specializing in statistics,
   data analysis, machine learning, and data-driven solutions.
 twitter_username: ""
-github_username: "YOUR_GITHUB_USERNAME"
+github_username: "Maggionigabriele"
 minimal_mistakes_skin: default
 search: true
 
-url: "https://YOUR_GITHUB_USERNAME.github.io"
+url: "https://Maggionigabriele/Maggionigabriele.github.io"
 baseurl: ""
 
 locale: "en-US"
@@ -32,11 +32,10 @@ timezone: "Europe/Rome"
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
-# Outputting
+
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -63,34 +62,32 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  name: "Gabriele Maggioni"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "Data Scientist specializing in statistics, data analysis, and machine learning."
+  location: "Italy/France"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:maggioni.gabriele.cologno@gmail.com"
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Maggionigabriele"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: ""
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/Maggionigabriele"
+
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: ""
 
 defaults:
   # _posts
